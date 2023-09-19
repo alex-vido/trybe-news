@@ -1,0 +1,31 @@
+.notFoundHeader {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10%;
+}
+
+.notFoundContent {
+  align-items: center;
+  display: flex;
+  height: calc(100vh - 150px);
+  justify-content: center;
+}
+
+.notFoundTitle {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+@media screen and ( max-width : 768px ) {
+
+  .notFoundHeader {
+    margin: 0 5%;
+  }
+
+  .notFoundContent {
+    height: calc(100vh - 140px);
+  }
+}
