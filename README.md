@@ -42,3 +42,7 @@
    npm run dev
 
 `
+
+### Link do Deploy:
+
+https://trybe-news-alexvido.vercel.app/
